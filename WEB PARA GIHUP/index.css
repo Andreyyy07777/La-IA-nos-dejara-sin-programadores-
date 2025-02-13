@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f4f4f4;
+}
+
+/* Estilos del header */
+header {
+    background-color: #121212;
+    color: #f4f4f4;
+    padding: 40px 10%;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #00bcd4;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0097a7;
+}
+
+/* Estilos del hero-image */
+.hero-image {
+    margin-top: 20px;
+}
+
+.hero-image h1 {
+    font-size: 48px;
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.hero-image p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #f4f4f4;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Contenido principal */
+.main-content {
+    padding: 40px 10%;
+}
+
+.news-article {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+
+.news-article h2 {
+    font-size: 32px;
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+.news-article p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #121212;
+    color: #f4f4f4;
+    padding: 20px 10%;
+    text-align: center;
+}
+
+footer .footer-content p {
+    margin-bottom: 10px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    header {
+        padding: 40px 20px;
+    }
+
+    .hero-image h1 {
+        font-size: 30px;
+    }
+
+    .hero-image p {
+        font-size: 16px;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .news-article {
+        padding: 15px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        margin-bottom: 20px;
+    }
+}
